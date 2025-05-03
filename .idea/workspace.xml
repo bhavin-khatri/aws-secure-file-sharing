@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="157b6b3a-0cca-4731-b281-46168bf2e44a" name="Default Changelist" comment="updated experience design" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="ProjectId" id="2ZJRQRHq8M51EBnNQvmSrqq9Szm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Logger" />
+      <recent name="$PROJECT_DIR$/src/res/images" />
+      <recent name="$PROJECT_DIR$/src/Screens/Projects/ProjectDetails" />
+      <recent name="$PROJECT_DIR$/src/res/animations" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Screens" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="157b6b3a-0cca-4731-b281-46168bf2e44a" name="Default Changelist" comment="" />
+      <created>1702138178487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702138178487</updated>
+      <workItem from="1702138180164" duration="1810000" />
+      <workItem from="1702140000498" duration="111000" />
+      <workItem from="1702140119071" duration="7253000" />
+      <workItem from="1702270579035" duration="15776000" />
+      <workItem from="1702310948453" duration="3066000" />
+      <workItem from="1702360786240" duration="5059000" />
+      <workItem from="1702443779521" duration="637000" />
+      <workItem from="1702633569291" duration="606000" />
+      <workItem from="1703221305893" duration="3012000" />
+      <workItem from="1703829790899" duration="602000" />
+      <workItem from="1703931593639" duration="1272000" />
+      <workItem from="1703933163301" duration="83000" />
+      <workItem from="1706759258926" duration="19868000" />
+      <workItem from="1706850983771" duration="15656000" />
+      <workItem from="1706893148110" duration="11096000" />
+      <workItem from="1706908085938" duration="614000" />
+      <workItem from="1706952170311" duration="8207000" />
+      <workItem from="1706977885460" duration="1706000" />
+      <workItem from="1706986151903" duration="5943000" />
+      <workItem from="1707046429715" duration="634000" />
+      <workItem from="1707123235410" duration="1416000" />
+      <workItem from="1707129232023" duration="11000" />
+      <workItem from="1707129287175" duration="607000" />
+      <workItem from="1707136838325" duration="2905000" />
+      <workItem from="1707155770384" duration="6316000" />
+      <workItem from="1707162209125" duration="472000" />
+      <workItem from="1707196794771" duration="6911000" />
+      <workItem from="1707800340271" duration="6125000" />
+      <workItem from="1707969456460" duration="1201000" />
+      <workItem from="1707995444043" duration="1000" />
+      <workItem from="1708667293717" duration="1159000" />
+      <workItem from="1709571256792" duration="4690000" />
+      <workItem from="1709655431112" duration="3442000" />
+      <workItem from="1709700612264" duration="598000" />
+      <workItem from="1710949210059" duration="3098000" />
+      <workItem from="1711084915685" duration="4523000" />
+      <workItem from="1711098604701" duration="3742000" />
+      <workItem from="1711426838249" duration="115000" />
+      <workItem from="1711427014242" duration="9479000" />
+      <workItem from="1711475040196" duration="820000" />
+      <workItem from="1711513171363" duration="1639000" />
+      <workItem from="1711641144200" duration="18000" />
+      <workItem from="1711726400844" duration="6628000" />
+      <workItem from="1711821080494" duration="669000" />
+      <workItem from="1711822301855" duration="204000" />
+      <workItem from="1712473981276" duration="4629000" />
+      <workItem from="1712585129144" duration="1609000" />
+      <workItem from="1712727680154" duration="524000" />
+      <workItem from="1713634667861" duration="1204000" />
+      <workItem from="1713761168168" duration="179000" />
+      <workItem from="1715372423860" duration="1628000" />
+      <workItem from="1715436964998" duration="958000" />
+      <workItem from="1715704250085" duration="1764000" />
+      <workItem from="1716119844490" duration="2816000" />
+      <workItem from="1716406395266" duration="3226000" />
+      <workItem from="1716483316332" duration="3159000" />
+      <workItem from="1716827267114" duration="617000" />
+      <workItem from="1717075449367" duration="9000" />
+      <workItem from="1717075506775" duration="19000" />
+      <workItem from="1717516858122" duration="594000" />
+      <workItem from="1717685930574" duration="5000" />
+      <workItem from="1717777627401" duration="4609000" />
+      <workItem from="1718009864794" duration="36000" />
+      <workItem from="1718213966358" duration="11107000" />
+      <workItem from="1718296145949" duration="6598000" />
+      <workItem from="1719557585731" duration="291000" />
+      <workItem from="1719559337385" duration="848000" />
+      <workItem from="1719577128799" duration="50000" />
+      <workItem from="1721570812244" duration="10137000" />
+      <workItem from="1725293276501" duration="1935000" />
+      <workItem from="1726211370045" duration="7008000" />
+      <workItem from="1726471432166" duration="69000" />
+      <workItem from="1726479978937" duration="6147000" />
+      <workItem from="1728029780895" duration="3182000" />
+      <workItem from="1728034188181" duration="3140000" />
+      <workItem from="1728407490822" duration="97000" />
+      <workItem from="1728724200787" duration="136000" />
+      <workItem from="1728724870721" duration="2011000" />
+      <workItem from="1734414881265" duration="656000" />
+      <workItem from="1736209887082" duration="61000" />
+      <workItem from="1738571265580" duration="3385000" />
+      <workItem from="1738644039032" duration="4000" />
+      <workItem from="1746172398375" duration="413000" />
+      <workItem from="1746173101485" duration="4464000" />
+      <workItem from="1746177722002" duration="29000" />
+      <workItem from="1746177753391" duration="5000" />
+      <workItem from="1746177771989" duration="4723000" />
+      <workItem from="1746183268482" duration="2158000" />
+      <workItem from="1746185438731" duration="13000" />
+      <workItem from="1746185508593" duration="2292000" />
+      <workItem from="1746195234653" duration="10558000" />
+    </task>
+    <task id="LOCAL-00001" summary="- initial project setup">
+      <created>1702147365884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702147365884</updated>
+    </task>
+    <task id="LOCAL-00002" summary="- Design Dashboard&#10;- Added Project List">
+      <created>1702291065245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702291065245</updated>
+    </task>
+    <task id="LOCAL-00003" summary="- Category Tabs&#10;- Project List">
+      <created>1706759325178</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706759325178</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Added Firebase Storage and Nodes&#10;- Imported and shows All data from firebase">
+      <created>1706777440067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706777440067</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- formatted files">
+      <created>1706777485833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706777485833</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- Fixed Screen size issue">
+      <created>1706780648061</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706780648061</updated>
+    </task>
+    <task id="LOCAL-00007" summary="- Added hyperlinks to dashboard icons">
+      <created>1706780920537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706780920537</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- Changed Project List Styles&#10;- Updated Project Data.json">
+      <created>1706858004592</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706858004592</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed Design of Following things&#10;- Dashboard&#10;- Nav bar&#10;- About Me">
+      <created>1706897018963</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706897018963</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed Design of Following things&#10;- Project List&#10;- Selected Project Details">
+      <created>1706905760545</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706905760545</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changed Design of Following things&#10;- added .npmrc file">
+      <created>1706906677900</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706906677900</updated>
+    </task>
+    <task id="LOCAL-00012" summary="- Added Media Query for mobile in following screens&#10;1 Category &#10;2 Dashboard &#10;3 About Me&#10;4 Project List&#10;5 Project Details">
+      <created>1706958487624</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706958487624</updated>
+    </task>
+    <task id="LOCAL-00013" summary="- Added Experience Category&#10;- Added Experience Responsive (Mobile - Web) Screen">
+      <created>1706991504335</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706991504335</updated>
+    </task>
+    <task id="LOCAL-00014" summary="-Added animation in project card item and about me download and contact button">
+      <created>1707162096772</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1707162096772</updated>
+    </task>
+    <task id="LOCAL-00015" summary="- image center issue">
+      <created>1707162676876</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1707162676876</updated>
+    </task>
+    <task id="LOCAL-00016" summary="- Added animation in category tabs">
+      <created>1707208217482</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707208217482</updated>
+    </task>
+    <task id="LOCAL-00017" summary="- Added Skills Tab">
+      <created>1707804480027</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1707804480027</updated>
+    </task>
+    <task id="LOCAL-00018" summary="- Fixed categories tab">
+      <created>1707804634776</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1707804634776</updated>
+    </task>
+    <task id="LOCAL-00019" summary="- Fixed Dashboard">
+      <created>1707804957524</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707804957524</updated>
+    </task>
+    <task id="LOCAL-00020" summary="- Updated ProjectData Format">
+      <created>1708667853044</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1708667853044</updated>
+    </task>
+    <task id="LOCAL-00021" summary="- Added Scan to Download App functionality in Projects">
+      <created>1711732439594</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711732439594</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated Experience View , Added image placeholder">
+      <created>1718224895874</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1718224895874</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fixed experience mobile view">
+      <created>1718306271609</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1718306271609</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Updated ExperienceView">
+      <created>1726249783488</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726249783488</updated>
+    </task>
+    <task id="LOCAL-00025" summary="set logger false">
+      <created>1726249957215</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1726249957215</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updated experience &amp; project view">
+      <created>1726486178179</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1726486178180</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updated experience design">
+      <created>1738576794607</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1738576794607</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Category Tabs&#10;- Project List" />
+    <MESSAGE value="- Added Firebase Storage and Nodes&#10;- Imported and shows All data from firebase" />
+    <MESSAGE value="- formatted files" />
+    <MESSAGE value="- Fixed Screen size issue" />
+    <MESSAGE value="- Added hyperlinks to dashboard icons" />
+    <MESSAGE value="- Changed Project List Styles&#10;- Updated Project Data.json" />
+    <MESSAGE value="Changed Design of Following things&#10;- Dashboard&#10;- Nav bar&#10;- About Me" />
+    <MESSAGE value="Changed Design of Following things&#10;- Project List&#10;- Selected Project Details" />
+    <MESSAGE value="Changed Design of Following things&#10;- added .npmrc file" />
+    <MESSAGE value="- Added Media Query for mobile in following screens&#10;1 Category &#10;2 Dashboard &#10;3 About Me&#10;4 Project List&#10;5 Project Details" />
+    <MESSAGE value="- Added Experience Category&#10;- Added Experience Responsive (Mobile - Web) Screen" />
+    <MESSAGE value="-Added animation in project card item and about me download and contact button" />
+    <MESSAGE value="- image center issue" />
+    <MESSAGE value="- Added animation in category tabs" />
+    <MESSAGE value="- Added Skills Tab" />
+    <MESSAGE value="- Fixed categories tab" />
+    <MESSAGE value="- Fixed Dashboard" />
+    <MESSAGE value="- Updated ProjectData Format" />
+    <MESSAGE value="- Added Scan to Download App functionality in Projects" />
+    <MESSAGE value="Updated Experience View , Added image placeholder" />
+    <MESSAGE value="fixed experience mobile view" />
+    <MESSAGE value="Updated ExperienceView" />
+    <MESSAGE value="set logger false" />
+    <MESSAGE value="updated experience &amp; project view" />
+    <MESSAGE value="updated experience design" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated experience design" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,172 @@
+@import '../../Css/CommonStyles.css';
+.mainView {
+  display: flex;
+  /*background-color: var(--bg-color);*/
+  flex-direction: column;
+  text-align: center;
+  /*width: 100%;*/
+  margin: 50px;
+  /*background-color: dodgerblue;*/
+}
+
+.rowView {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.lottieContainer {
+  /*width: 100%;*/
+  /*background-color: black;*/
+}
+
+.aboutMeView {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.titleText {
+  font-family: Poppins-Bold, serif;
+  font-size: 45px;
+  text-align: left;
+  color: black;
+}
+.descriptionText {
+  font-family: Poppins-Regular, serif;
+  font-size: 18px;
+  text-align: left;
+  line-height: 30px;
+  margin-top: 10px;
+  color: darkgrey;
+}
+
+.socialItemMainView {
+  margin: 20px 10px 20px 0;
+  height: 40px;
+  border-radius: 30px;
+  width: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.socialItemImage {
+  height: 40px;
+  width: 40px;
+}
+
+.placeholderView{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid var(--grey);
+}
+.placeholderLogo{
+  height: 20px;
+  width: 20px;
+  opacity: 0.5;
+}
+
+.socialRowView {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+
+.buttonView {
+  margin: 10px 15px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*padding:10px 20px 10px 20px;*/
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  width: 180px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.buttonTextView {
+  margin: 10px 40px 10px 10px;
+}
+
+.buttonIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40px;
+  background-color: var(--light-primary);
+  position: absolute;
+  right: 0;
+}
+
+.downloadIcon {
+  height: 20px;
+  width: 20px;
+}
+
+.buttonText {
+  font-family: Poppins-SemiBold, serif;
+  font-size: 14px;
+  color: white;
+}
+.buttonView,
+.buttonText,
+.buttonIcon {
+  transition: all 0.3s;
+}
+
+.buttonView:hover {
+  background: var(--light-primary);
+}
+
+.buttonView:hover .buttonText {
+  color: transparent;
+}
+
+.buttonView:hover .buttonIcon {
+  width: 180px;
+  transform: translateX(0);
+}
+
+@media only screen and (max-width: 768px) {
+  .rowView {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutMeView {
+    margin-right: 0; /* Remove margin on the right */
+  }
+
+  .mainView {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .titleText {
+    font-size: 25px;
+  }
+  .descriptionText {
+    font-size: 14px;
+  }
+  .aboutMeView {
+    margin: 10px;
+  }
+  .buttonText {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,132 @@
+@import '../../Css/CommonStyles.css';
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0 2px 4px var(--black-shadow);
+}
+
+.body {
+  padding-top: 40px;
+  height: calc(
+    100vh - 70px
+  ); /* Adjust as needed based on the height of your navbar */
+}
+
+.categoryRowView {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
+}
+.nameView {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nameText {
+  font-size: 18px;
+  color: black;
+}
+#devName {
+  font-family: Poppins-Medium, serif;
+  color: var(--secondary-color);
+  margin: 0 8px 0 8px;
+}
+.categoryItemView {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.categoryTitle {
+  font-family: Poppins-Medium, serif;
+  font-size: 16px;
+  line-height: 20px;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.categoryTitleBg {
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.categoryTitleBg:focus,
+.categoryTitleBg:hover {
+  color: var(--light-primary);
+}
+
+.categoryTitleBg:focus:after,
+.categoryTitleBg:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.categoryTitleBg:after {
+  content: '';
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--light-primary);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+#activeTitle {
+  color: var(--secondary-color);
+}
+#inActiveTitle {
+  color: darkgrey;
+}
+.categoryImage {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nameView {
+    margin-left: 10px;
+  }
+  .nameText {
+    font-size: 12px;
+  }
+  .categoryRowView {
+    margin-right: 10px;
+  }
+  .categoryTitle {
+    font-size: 12px;
+  }
+  .categoryItemView {
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+}

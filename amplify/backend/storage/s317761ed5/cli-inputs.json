@@ -1,0 +1,12 @@
+{
+  "resourceName": "s317761ed5",
+  "policyUUID": "17761ed5",
+  "bucketName": "secure-file-sharing",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "groupAccess": {}
+}

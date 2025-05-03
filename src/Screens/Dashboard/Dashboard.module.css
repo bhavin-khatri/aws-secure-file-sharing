@@ -1,0 +1,137 @@
+@import '../../Css/CommonStyles.css';
+.dashboardMainView {
+  display: flex;
+  overflow-y: auto;
+  width: 100%;
+}
+
+.dashboardProfileView {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #3c3c3c;
+  border-radius: 10px;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 20vw;
+  height: 90vh;
+}
+.dashboardProfileImage {
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dashboardNameText {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+}
+.dashboardDesignationText {
+  font-size: 18px;
+  color: white;
+  /*font-weight: bold;*/
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dashboardContactInfoText {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.dashboardSocialItemMainView {
+  margin: 10px;
+  height: 50px;
+  border-radius: 30px;
+  width: 50px;
+  border: 1px solid #3c3c3c;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.dashboardSocialItemImage {
+  height: 30px;
+  width: 30px;
+}
+
+.dashboardRowViewSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.dashboardContactMeButton {
+  height: 50px;
+  background-color: #e0d48e;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dashboardContactMeText {
+  font-size: 18px;
+  color: var(--bg-color);
+  font-weight: bold;
+}
+.topView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 30px;
+}
+.bottomView {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.bottomItemView {
+  flex: 1;
+  padding: 10px 5px 10px 5px;
+  border-top: 1px solid #3c3c3c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /*background-color: #5bb9c0;*/
+}
+
+.bottomText {
+  font-size: 14px;
+  color: white;
+}
+.rowDivider {
+  /*flex: 1;*/
+  width: 1px;
+  height: 40px;
+  background-color: #3c3c3c;
+}
+.bottomSmallImage {
+  height: 20px;
+  width: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.hireMeImage {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}

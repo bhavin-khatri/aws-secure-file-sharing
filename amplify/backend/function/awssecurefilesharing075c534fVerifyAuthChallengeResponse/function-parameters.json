@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-verify",
+    "boilerplate-verify"
+  ],
+  "parentResource": "awssecurefilesharing075c534f",
+  "functionName": "awssecurefilesharing075c534fVerifyAuthChallengeResponse",
+  "resourceName": "awssecurefilesharing075c534fVerifyAuthChallengeResponse",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/snapshot/amplify-cli/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/VerifyAuthChallengeResponse",
+  "triggerTemplate": "VerifyAuthChallengeResponse.json.ejs",
+  "triggerEventPath": "VerifyAuthChallengeResponse.event.json",
+  "roleName": "awssecurefilesharing075c534fVerifyAuthChallengeResponse",
+  "skipEdit": true
+}

@@ -1,0 +1,126 @@
+.mainView {
+  margin: 50px 50px 50px 0;
+  flex-direction: row;
+  display: flex;
+  /*width: 100%;*/
+
+}
+.selectedView {
+  margin-bottom: 10px;
+  flex: 1;
+}
+.rowView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.dateText {
+  font-family: Poppins-Medium, serif;
+  color: black;
+  font-size: 14px;
+}
+#companyExpInYears{
+  color: var(--secondary-color);
+  align-self: center;
+}
+.companyNameText {
+  font-family: Poppins-Medium, serif;
+  color: var(--secondary-color);
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+.designationText {
+  font-family: Poppins-Medium, serif;
+  color: black;
+  font-size: 18px;
+  line-height: 28px;
+}
+.experienceBodyTitle {
+  font-family: Poppins-Medium, serif;
+  color: black;
+  font-size: 16px;
+  line-height: 26px;
+}
+.experienceBodyText {
+  font-family: Poppins-Regular, serif;
+  color: darkgrey;
+  font-size: 14px;
+  line-height: 24px;
+}
+#roleText{
+  font-style: italic;
+}
+.columnView {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.skillsRowView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.skillsStackItemView {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /*height: 30px;*/
+  padding: 5px 10px 5px 10px;
+  border: 1px solid var(--bright-primary);
+  margin: 5px 5px 5px 0;
+  border-radius: 25px;
+  color: var(--bright-primary);
+  font-family: Poppins-Medium, serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  .mainView {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+  }
+  .selectedView{
+    margin-top: 20px;
+  }
+  .dateText {
+    font-size: 12px;
+  }
+  .companyNameText {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .designationText {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .experienceBodyTitle {
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .experienceBodyText {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .skillsStackItemView {
+    font-size: 8px;
+    padding: 2px 5px 2px 5px;
+    margin: 5px 5px 5px 0;
+    border-radius: 10px;
+  }
+}

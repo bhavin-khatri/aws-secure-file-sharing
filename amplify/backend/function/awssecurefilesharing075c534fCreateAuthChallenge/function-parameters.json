@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "captcha-create-challenge",
+    "boilerplate-create-challenge"
+  ],
+  "parentResource": "awssecurefilesharing075c534f",
+  "functionName": "awssecurefilesharing075c534fCreateAuthChallenge",
+  "resourceName": "awssecurefilesharing075c534fCreateAuthChallenge",
+  "parentStack": "auth",
+  "triggerEnvs": "[]",
+  "triggerDir": "/snapshot/amplify-cli/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CreateAuthChallenge",
+  "triggerTemplate": "CreateAuthChallenge.json.ejs",
+  "triggerEventPath": "CreateAuthChallenge.event.json",
+  "roleName": "awssecurefilesharing075c534fCreateAuthChallenge",
+  "skipEdit": true
+}

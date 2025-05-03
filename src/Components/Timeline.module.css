@@ -1,0 +1,222 @@
+.timelineContainer{
+    position: relative;
+    width: 500px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    background-color: var(--secondary-color);
+    width: 5px;
+    height: 100%;
+    z-index: 100;
+    border-radius: 10px;
+}
+.timelineTop{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: var(--secondary-color);
+    z-index: 101;
+    top:0;
+    border-radius: 20px;
+}
+
+.totalExpTimeLine{
+    position: absolute;
+    top:-10px;
+    right: 10vw;
+    z-index: 102;
+    font-size: 20px;
+    font-family: Poppins-SemiBold, sans-serif;
+    color: var(--bright-primary);
+}
+.timelineBottom{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: var(--secondary-color);
+    z-index:     101;
+    bottom:0;
+    border-radius: 20px;
+}
+.experience{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.timelineItem{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+}
+.content.left{
+    text-align: right;
+}
+.content.right{
+    text-align: left;
+}
+.boxItem{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 1px 1px 1px var(--black-shadow);
+}
+.placeHolderLogo{
+    width: 50%;
+    height: 50%;
+    opacity: 0.5;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.timelineItem.left{
+    align-self: flex-start;
+}
+.timelineItem.right{
+    align-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+.boxItem.left{
+    margin-left: 10px;
+}
+
+.boxItem.right{
+    margin-right: 10px;
+}
+
+.smallLine{
+    width: 30px;
+    height: 5px;
+    background-color: var(--black-shadow);
+}
+.durationText{
+    font-family: Poppins-Regular,sans-serif;
+    font-size: 12px;
+    color: var(--grey);
+}
+.companyNameText{
+    font-family: Poppins-SemiBold,sans-serif;
+    font-size: 14px;
+    color: var(--grey);
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.active .companyNameText {
+    color: var(--bright-primary);
+}
+
+
+.active .durationText {
+    color: black;
+}
+
+.active .smallLine {
+    background-color: var(--secondary-color);
+}
+.inactive{}
+
+@media only screen and (max-width: 768px) {
+    .timelineContainer {
+        width: 100%;
+        height: 250px;
+        justify-content: center;
+        align-self: flex-start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .timeline {
+        height: 5px;
+        width: 100%;
+    }
+
+    .timelineTop, .timelineBottom {
+        top:48%
+    }
+
+    .timelineTop {
+        left: 0;
+    }
+
+    .timelineBottom {
+        right: 0;
+    }
+
+    .experience {
+        height: 80px;
+        flex-direction: row;
+    }
+
+    .timelineItem {
+        width: 200px;
+        height: 200px;
+    }
+    .timelineItem.left{
+        margin-top:40px;
+        flex-direction: column-reverse;
+    }
+
+    .timelineItem.right{
+        flex-direction: column;
+        margin-bottom:40px;
+    }
+    .content.left{
+        text-align: right;
+    }
+    .content.right{
+        justify-content: flex-end;
+        text-align: left;
+    }
+    .boxItem {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        box-shadow: 0 1px 1px 1px var(--black-shadow);
+
+    }
+
+    .smallLine {
+        width: 5px;
+        height: 30px;
+        background-color: var(--black-shadow);
+    }
+
+    .companyNameText {
+        font-family: Poppins-SemiBold, sans-serif;
+        font-size: 12px;
+        color: var(--grey);
+    }
+}

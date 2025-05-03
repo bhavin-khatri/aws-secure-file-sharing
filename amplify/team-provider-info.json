@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awssecurefilesharing-dev-52fb7-authRole",
+      "UnauthRoleArn": "arn:aws:iam::871517816575:role/amplify-awssecurefilesharing-dev-52fb7-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::871517816575:role/amplify-awssecurefilesharing-dev-52fb7-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-awssecurefilesharing-dev-52fb7-deployment",
+      "UnauthRoleName": "amplify-awssecurefilesharing-dev-52fb7-unauthRole",
+      "StackName": "amplify-awssecurefilesharing-dev-52fb7",
+      "StackId": "arn:aws:cloudformation:ap-south-1:871517816575:stack/amplify-awssecurefilesharing-dev-52fb7/f747bc40-273c-11f0-9853-0237420bea5b",
+      "AmplifyAppId": "d3gg663vvt9zgy"
+    },
+    "categories": {
+      "auth": {
+        "awssecurefilesharing075c534f": {}
+      },
+      "storage": {
+        "s317761ed5": {}
+      },
+      "function": {
+        "awssecurefilesharing075c534fCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-awssecurefilesharing-dev-52fb7-deployment",
+          "s3Key": "amplify-builds/awssecurefilesharing075c534fCreateAuthChallenge-426131512f696a773362-build.zip"
+        },
+        "awssecurefilesharing075c534fCustomMessage": {
+          "deploymentBucketName": "amplify-awssecurefilesharing-dev-52fb7-deployment",
+          "s3Key": "amplify-builds/awssecurefilesharing075c534fCustomMessage-532b796f396b67303074-build.zip"
+        },
+        "awssecurefilesharing075c534fDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-awssecurefilesharing-dev-52fb7-deployment",
+          "s3Key": "amplify-builds/awssecurefilesharing075c534fDefineAuthChallenge-3262726f76426c4c7641-build.zip"
+        },
+        "awssecurefilesharing075c534fVerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-awssecurefilesharing-dev-52fb7-deployment",
+          "s3Key": "amplify-builds/awssecurefilesharing075c534fVerifyAuthChallengeResponse-6a774d326243536b3172-build.zip"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "portfolio": {
+    "allSkills": [
+      {
+        "data": [
+          "MacOs",
+          "Windows"
+        ],
+        "title": "Operating Systems"
+      },
+      {
+        "data": [
+          "React Native",
+          "React Js"
+        ],
+        "title": "Frameworks / Libraries"
+      },
+      {
+        "data": [
+          "MySQL",
+          "MongoDb",
+          "Firebase"
+        ],
+        "title": "Database Expertise"
+      },
+      {
+        "data": [
+          "JavaScript",
+          "TypeScript",
+          "Kotlin",
+          "Java",
+          "Html",
+          "CSS"
+        ],
+        "title": "Languages"
+      },
+      {
+        "data": [
+          "Gitlab",
+          "Github",
+          "Bitbucket"
+        ],
+        "title": "Version Controls"
+      },
+      {
+        "data": [
+          "Play Store",
+          "App Store",
+          "App Center"
+        ],
+        "title": "App Distribution"
+      }
+    ],
+    "categories": [
+      {
+        "activeImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_white.png?alt=media&token=daff416f-209d-4d93-8f47-2dca4477f032",
+        "componentName": "About",
+        "inactiveImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_dark.png?alt=media&token=03e77461-57bf-448c-9de9-b31105dbaec7",
+        "title": "About"
+      },
+      {
+        "activeImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_white.png?alt=media&token=daff416f-209d-4d93-8f47-2dca4477f032",
+        "componentName": "Skills",
+        "inactiveImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_dark.png?alt=media&token=03e77461-57bf-448c-9de9-b31105dbaec7",
+        "title": "Skills"
+      },
+      {
+        "activeImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_white.png?alt=media&token=daff416f-209d-4d93-8f47-2dca4477f032",
+        "componentName": "ProjectList",
+        "inactiveImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_dark.png?alt=media&token=03e77461-57bf-448c-9de9-b31105dbaec7",
+        "title": "Projects"
+      },
+      {
+        "activeImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_white.png?alt=media&token=daff416f-209d-4d93-8f47-2dca4477f032",
+        "componentName": "Experience",
+        "inactiveImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/categories%2Fproject_dark.png?alt=media&token=03e77461-57bf-448c-9de9-b31105dbaec7",
+        "title": "Experience"
+      }
+    ],
+    "personalDetails": {
+      "aboutMe": "A passionate Software Developer 🚀 with {years_of_exp} of experience in building web and mobile applications using JavaScript, TypeScript, React JS, React Native, Android, and other cool libraries and frameworks.",
+      "address": "Mumbai,Maharashtra,India",
+      "contactEmail": "khatribhavin30@gmail.com",
+      "contactNumber": "+91 8320467591",
+      "designation": "Frontend Developer",
+      "firstName": "Bhavin",
+      "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/profile%2Fcoding_ninja.jpg?alt=media&token=5ddfbe36-5e24-4630-acd5-0b900f945fe2",
+      "lastName": "Khatri"
+    },
+    "projects": [
+      {
+        "endData": "",
+        "primaryColor": "#0071F4",
+        "projectDescription": "Apna Bot is your pocket assistant, designed to unleash the power of conversation and enhance your daily interactions. With Apna Bot by your side, you have access to a personal AI assistant that is ready to engage, assist, and entertain you whenever you need it.",
+        "projectImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2Fproject_one.png?alt=media&token=add629e9-5bd6-4289-aed8-ea453d48a8a1",
+        "projectLink": "https://install.appcenter.ms/users/khatribhavin/apps/apna-bot/distribution_groups/apna%20bot%20release",
+        "projectName": "Apna Bot",
+        "projectRoundImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2Fapna_bot_curve_logo.png?alt=media&token=0f3f1bfb-c6db-471f-80d3-4a0dcfc84059",
+        "projectScreenLayouts": [
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2F1_Intro.png?alt=media&token=e70d2d11-68ef-49c1-9dd6-ef23b4a2fbdf",
+            "title": "Introduction"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2F2_Dashboard.png?alt=media&token=b514164b-5c2a-4f1b-8de1-91d5f85403ac",
+            "title": "Dashboard"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2F3_Category.png?alt=media&token=54d2de88-047f-4b9e-8638-a3e96a67cc84",
+            "title": "Category"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2F4_Chat.png?alt=media&token=7188e6c8-cfa6-4834-af25-2ae20bd3bff1",
+            "title": "Chat"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2F5_BottomSheet.png?alt=media&token=43d8a67d-0f4b-41b0-936c-fdec2462dd06",
+            "title": "Message Options"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2F6_SelectText.png?alt=media&token=f823475d-a533-47c1-b0b6-2d397ada7811",
+            "title": "Select Response"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2F7_ChatHistory.png?alt=media&token=68ac33d3-f376-4070-9d98-4bf301188a46",
+            "title": "Chat History"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2F8_Conversation.png?alt=media&token=13f84b7a-e2a2-46b7-a45d-c93373baac74",
+            "title": "Conversation"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2FExpected_output.png?alt=media&token=345ce96c-1d0c-447e-849c-37e73aac61a4",
+            "title": "Expected Output"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2Fsettings.png?alt=media&token=b9f3f2ad-4104-4ad6-a170-c6ae751476ed",
+            "title": "Settings"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fapnabot%2FAbout%20Us.png?alt=media&token=8f3b78e5-df67-4350-9edf-490326745fc4",
+            "title": "About us"
+          }
+        ],
+        "projectTechStack": [
+          "TypeScript",
+          "JavaScript",
+          "React Native",
+          "Open AI"
+        ],
+        "projectVersion": "",
+        "releaseApkLink": "https://drive.google.com/file/d/1ELekAak92UNVhSdccD0n4UhIHi5Bf-EX/view?usp=drive_link",
+        "roleDescription": "As a Developer on the Apna Bot project, played a pivotal role in designing and developing a chatbot application using React Native and TypeScript. Key Highlights: Chat History, Chat Details, Message Manipulation, Custom Output Options.",
+        "startDate": ""
+      },
+      {
+        "endData": "",
+        "primaryColor": "#e44c4c",
+        "projectDescription": "As a name suggest Gyan Astra is a mobile application where user can get knowledge (gyan) of Modern Era's Astra (Crypto Currency, NFT , PI Network , Stock Market)",
+        "projectImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fic_launcher.png?alt=media&token=7bead5e8-70f7-45c7-a281-368833a05b61",
+        "projectLink": "https://github.com/bhavin-khatri/gyan-astra-rn",
+        "projectName": "Gyan Astra",
+        "projectRoundImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fgyan_astra_curve.png?alt=media&token=c4a20069-6059-4a40-8259-dfb79028ff9a",
+        "projectScreenLayouts": [
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fsplash.png?alt=media&token=94ba94dc-9a6f-4fab-b56a-adcf918d1125",
+            "title": "Splash"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Flogin.jpeg?alt=media&token=bbb4d9d1-a8a0-4b0f-b273-9016028ec7c6",
+            "title": "Login"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fsign%20up.jpeg?alt=media&token=a5c5fdf5-92a3-4859-b3ea-b59e8b0e35c3",
+            "title": "Sign Up"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fdashboard.jpeg?alt=media&token=d8a97800-8bf8-4a4a-91a7-8ad144e92802",
+            "title": "Dashboard"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fcrypto%20info.jpeg?alt=media&token=14eaf306-917f-48cc-b2d6-47c31afdac3c",
+            "title": "Crypto Astra"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fstock%20info.jpeg?alt=media&token=93311082-6ef2-4368-91a8-fa3a4a41d8ff",
+            "title": "Stock Astra"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fpi%20stra.jpg?alt=media&token=94341f34-b601-4acd-acae-02e4d603c369",
+            "title": "Pi Astra"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fnft%20astra.jpg?alt=media&token=965c68eb-bc7c-407a-9c2f-7b0a809349a5",
+            "title": "NFT Astra"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fcrypto%20price%20list.jpeg?alt=media&token=80249a33-9507-4af0-b1eb-83a86d0f8c56",
+            "title": "Crypto Prices"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fnews%20list.jpeg?alt=media&token=24f06c21-75c0-48a4-9981-91848017841b",
+            "title": "News List"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fgyan_astra%2Fnews%20details.jpeg?alt=media&token=7cb5d709-f1f2-4852-9df8-dbe707a46a3c",
+            "title": "News Details"
+          }
+        ],
+        "projectTechStack": [
+          "React Native",
+          "TypeScript",
+          "JavaScript",
+          "Firebase"
+        ],
+        "projectVersion": "",
+        "releaseApkLink": "https://drive.google.com/file/d/11an466_uKP4rx0EHhP1ceGVDgEPKpPuM/view?usp=drive_link",
+        "roleDescription": "As a Developer for Gyan Astra, constructed a cross-platform mobile application using React Native that provides a wide range of information about modern-era topics, including Astra, cryptocurrency, NFTs, PIE, and the stock market.",
+        "startDate": ""
+      },
+      {
+        "endData": "",
+        "primaryColor": "#0096FF",
+        "projectDescription": "ReadOx is an android application designed for all the readers of our nation . Here users can see a variety of E book Categories with dozens of E books in each category and also all the E books will be downloadable for users so he or she can have a pleasure to read books offline if internet issues arise.",
+        "projectImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2Fic_launcher.png?alt=media&token=56f4060e-3244-478c-9d0c-dece2fedb6b0",
+        "projectLink": "https://github.com/bhavin-khatri/read-ox-android",
+        "projectName": "ReadOx",
+        "projectRoundImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2Freadox_curve.png?alt=media&token=95c630ae-c599-446e-a3e8-df4a6dcb3e98",
+        "projectScreenLayouts": [
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FSplash.png?alt=media&token=f9763a46-c3b0-4239-83a3-c633ccbe1244",
+            "title": "Splash"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FWelcome%20Screen.png?alt=media&token=257749c7-2d67-4c91-9db4-9d36a43b5891",
+            "title": "Introduction"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FLogin.png?alt=media&token=a0a9d02b-4402-4b8d-a90c-955beb0f447f",
+            "title": "Login"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FSignUp.png?alt=media&token=3180eb3f-4d99-46aa-ab1a-64f168434f8f",
+            "title": "Sign Up"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FDashboardUser.png?alt=media&token=9757480b-a112-4c54-aec6-7454d9191680",
+            "title": "Dashboard User"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FBookDetails.png?alt=media&token=eaece2d9-2935-4921-9c64-bad5ab82151c",
+            "title": "Book Details"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FReadBook.png?alt=media&token=7abeca4a-1a6c-4f7d-a9b9-fbb368316e16",
+            "title": "Read Book"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FDashBoardAdmin.png?alt=media&token=4a677261-0139-46a7-b1c4-ca07831326aa",
+            "title": "Dashboard Admin"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FAddCategory.png?alt=media&token=2769fb26-135d-4eb0-aacc-397e8648b135",
+            "title": "Add Category"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FAddBookpng.png?alt=media&token=b56ef275-dadd-4ce4-b7a2-8e149f5b5f97",
+            "title": "Add Book"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FDownloadBook.png?alt=media&token=3bd04253-8202-4a1e-ac37-2deab66faf24",
+            "title": "Download Book"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Freadox%2FEditBook.png?alt=media&token=dcb6598b-0b25-4132-abb7-1e8bb2bea4a6",
+            "title": "Edit Book Details"
+          }
+        ],
+        "projectTechStack": [
+          "Android",
+          "Java",
+          "Kotlin",
+          "Firebase"
+        ],
+        "projectVersion": "",
+        "releaseApkLink": "https://drive.google.com/file/d/1S_wwskcWv8Qr14awqHGwZIz9DJfaGM_m/view?usp=drive_link",
+        "roleDescription": "As a Developer for Read Ox, constructed an Android application tailored to provide access to a diverse collection of e-books, enhancing the reading experience. Key Features: Read Book, Download Book.",
+        "startDate": ""
+      },
+      {
+        "endData": "",
+        "primaryColor": "#000000",
+        "projectDescription": "Play Me is an innovative UI concept designed to revolutionize the way users interact with music applications. While the current version is not functional in terms of music playback, it serves as a glimpse into the future of music consumption and user experience. The project focuses on presenting a visually appealing and intuitive interface that enhances the user's engagement with their music library.",
+        "projectImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2Fplaystore-icon.png?alt=media&token=9ac32110-f4eb-459b-b48c-0f4c274d9871",
+        "projectLink": "https://github.com/bhavin-khatri/play-me-rn",
+        "projectName": "Play Me (Design)",
+        "projectRoundImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2Fplay_me_curve.png?alt=media&token=0c2b0b94-3e22-4870-985d-90e505001698",
+        "projectScreenLayouts": [
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FIntro.jpeg?alt=media&token=5fb3dd8e-cb64-4442-b067-b773e21b24ed",
+            "title": "Introduction"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FDashboard.jpeg?alt=media&token=4a5eed5b-c3e9-4f1f-a645-488166d89f9b",
+            "title": "Dashboard"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FProfile.jpeg?alt=media&token=86fd45d0-83f8-4c9e-9089-adaa652cde4f",
+            "title": "Profile"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FMusic.jpeg?alt=media&token=954ce53b-7051-4e48-a90e-27cc72b7f294",
+            "title": "Music"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fplayme%2FFav%20list.jpeg?alt=media&token=ff68fd1b-ac29-49e0-b1ab-5be312832585",
+            "title": "Favourites"
+          }
+        ],
+        "projectTechStack": [
+          "React Native",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "projectVersion": "",
+        "releaseApkLink": "https://drive.google.com/file/d/18y0jrLV14w_cZEK_gdw-HABzFe6hVVHe/view?usp=drive_link",
+        "roleDescription": "As a Developer for Play Me, constructed a cross-platform mobile application using React Native that presents a visually appealing and intuitive interface that enhances the user's engagement with their music library.",
+        "startDate": ""
+      },
+      {
+        "endData": "",
+        "projectDescription": "Music Chat is a android application which has chat and music mechanism. To save the users time to not to switch between two application like whatsapp and spotify to perform chat and music actions , we integrated music and chat mechanism in one single application and this app is designed for all the people of India.",
+        "projectImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fmusic_chat%2Fmusicchat.png?alt=media&token=fa8a08bf-3aa4-442f-88e4-f938886cfa40",
+        "projectLink": "https://github.com/bhavin-khatri/music-chat-android",
+        "projectName": "Music Chat",
+        "projectRoundImage": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fmusic_chat%2Fmusicchat_curve.png?alt=media&token=19955929-686c-4e19-8959-f8a33b626479",
+        "projectScreenLayouts": [
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fmusic_chat%2FMobile%20Verification.png?alt=media&token=e17ab9fc-e17d-4825-b0a2-e24919b375c9",
+            "title": "Login"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fmusic_chat%2FOTP%20Verification.png?alt=media&token=47be44a9-ba66-4562-8d7f-0133fc94166c",
+            "title": "Otp Verification"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fmusic_chat%2FCreate%20Profile.png?alt=media&token=16f1c929-a8c9-4085-8099-3d5d7e1af236",
+            "title": "Create Profile"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fmusic_chat%2FDashboard.png?alt=media&token=35e427d4-f8fc-41a0-a006-ae53db448c28",
+            "title": "Dashboard"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fmusic_chat%2FChat.png?alt=media&token=759c0c17-142e-4ff1-bd57-70492344057d",
+            "title": "Chat"
+          },
+          {
+            "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/projects%2Fmusic_chat%2FMusic.png?alt=media&token=ec9ffcea-2de6-48d6-9766-0933d5c57ec5",
+            "title": "Music"
+          }
+        ],
+        "projectTechStack": [
+          "Android",
+          "Java",
+          "Kotlin",
+          "Firebase",
+          "Chat"
+        ],
+        "projectVersion": "",
+        "roleDescription": "As a developer on the Music Chat project, I crafted an Android app merging messaging and music playback, offering users an interactive platform. Integrated a user-friendly interface for seamless chatting and music enjoyment. Engineered real-time messaging for text and media sharing",
+        "startDate": ""
+      }
+    ],
+    "resumeData": {
+      "declaration": "I hereby affirm the accuracy of all the details provided above to the best of my knowledge and confidence.",
+      "education": [
+        {
+          "cgpa": "9.13",
+          "course": "MCA",
+          "endYear": "2023",
+          "startYear": "2021",
+          "university": "Charotar University Of Science And Technology"
+        },
+        {
+          "cgpa": "8.77",
+          "course": "B.Sc - IT",
+          "endYear": "2021",
+          "startYear": "2018",
+          "university": "Charotar University Of Science And Technology"
+        }
+      ],
+      "experiences": [
+        {
+          "achievements": [],
+          "companyName": "KGiSL",
+          "companyLogo": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/companies%2Fkgislgss_logo.jpeg?alt=media&token=e0b05ca0-ea29-499c-8abb-608e579c023b",
+          "companyLinkedInProfile": "https://www.linkedin.com/company/kgisl/",
+          "designation": "Associate",
+          "employmentType": "Full Time",
+          "startDate": "Mar 2024",
+          "endDate": "Present",
+          "role": "Resource Developer (Working for Aditya Birla Capital)",
+          "roleDescription": [
+            "Maintain and enhance the Aditya Birla Wealth Application.",
+            "Manage version migrations, ensure platform compatibility, and implement solutions to boost user satisfaction.",
+            "Work with cross-functional teams to develop new features and design intuitive user interfaces for improved usability."
+          ],
+          "skills": [
+            "React Native",
+            "React Js",
+            "React Hooks",
+            "Redux",
+            "TypeScript",
+            "JavaScript",
+            "AWS",
+            "Firebase",
+            "Rest API",
+            "Product",
+            "App Distribution",
+            "Git",
+            "Payment Integration"
+          ]
+        },
+        {
+          "achievements": [],
+          "companyName": "Pheal",
+          "companyLogo": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/companies%2Fphealll.jpeg?alt=media&token=3bf9a83d-ce17-44c5-b2aa-bd3aff9417cb",
+          "companyLinkedInProfile": "https://www.linkedin.com/company/pompeyhealth/",
+          "designation": "Frontend Developer",
+          "employmentType": "Full Time",
+          "startDate": "Sep 2023",
+          "endDate": "Mar 2024",
+          "role": "",
+          "roleDescription": [
+            "Upgraded the Pheal Application & Dashboard by gathering requirements, analyzing feature requests, and developing new features.",
+            "Focused on optimizing code, ensuring a user-friendly interface, and maintaining clean, efficient code.",
+            "Conducted thorough analysis of new feature requests and identified bugs, ensuring clear project objectives."
+          ],
+          "skills": [
+            "React Native",
+            "React Js",
+            "React Hooks",
+            "Redux",
+            "TypeScript",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "AWS",
+            "Firebase",
+            "Rest API",
+            "Product",
+            "App Distribution",
+            "Git",
+            "Payment Integration"
+          ]
+        },
+        {
+          "achievements": [
+            "Earned appreciation for developing and delivering DGePay, a Fintech app for a Bangladesh client, securing the coveted Bangladesh Bank License for the initiation of payment services in Bangladesh."
+          ],
+          "companyName": "Digipay.Guru",
+          "companyLogo": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/companies%2Fdigipay.jpeg?alt=media&token=283f4069-4a55-453a-bbd0-70d75700d414",
+          "companyLinkedInProfile": "https://www.linkedin.com/company/digipay-ewallet/",
+          "designation": "Software Engineer",
+          "employmentType": "Full Time",
+          "startDate": "Jun 2022",
+          "endDate": "Aug 2023",
+          "role": "",
+          "roleDescription": [
+            "Maintained and enhanced cross-platform applications using React Native, ensuring robust functionality through comprehensive testing.",
+            "Collaborated with the design team to create intuitive user interfaces and participated in code reviews to improve code quality.",
+            "Developed DGePay, a Fintech app, securing a Bangladesh Bank License and implemented advanced features like a flavor system and digital signatures for enhanced security"
+          ],
+          "skills": [
+            "React Native",
+            "React Js",
+            "React Hooks",
+            "Redux",
+            "TypeScript",
+            "JavaScript",
+            "AWS",
+            "Firebase",
+            "Notification",
+            "Rest API",
+            "Product",
+            "Fintech",
+            "App Distribution",
+            "Datadog",
+            "Sentry",
+            "Git",
+            "Payment Integration",
+            "Digital Signature"
+          ]
+        }
+      ],
+      "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/profile%2Fbk.jpeg?alt=media&token=fecf3d99-21fd-44ad-8dfc-842e8bb307af",
+      "languages": [
+        "Hindi",
+        "English",
+        "Gujarati",
+        "Sindhi"
+      ],
+      "resumePdf": "https://drive.google.com/file/d/1qHP1uWO2G3UDxGrIyVjO3Pl-cQN6ZBSS/view?usp=sharing",
+      "skills": [
+        "Fintech",
+        "React Native",
+        "TypeScript",
+        "JavaScript",
+        "React.js",
+        "React Hooks",
+        "Redux",
+        "HTML",
+        "CSS",
+        "Git",
+        "Kotlin",
+        "Android",
+        "Java",
+        "Google Play Store",
+        "App Store",
+        "Firebase",
+        "Microsoft Office tools",
+        "Product Development",
+        "Datadog"
+      ]
+    },
+    "social": [
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/social%2Flinkedin.png?alt=media&token=1d5275ab-be8a-4420-87ee-846e8252760e",
+        "title": "LinkedIn",
+        "value": "https://www.linkedin.com/in/bhavin-khatri-838a3a1a4/"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/social%2Fgithub.png?alt=media&token=369f7546-3e8d-489a-b240-6e5c5506e1bc",
+        "title": "Github",
+        "value": "https://github.com/bhavin-khatri/"
+      },
+      {
+        "image": "https://firebasestorage.googleapis.com/v0/b/quickprofile-88f2e.appspot.com/o/social%2Fcoffee_cup.png?alt=media&token=e2fbd435-fc03-4c9e-afe0-59fad1abccdf",
+        "title": "Buy Me Coffee",
+        "value": "https://www.buymeacoffee.com/khatribhavi"
+      }
+    ]
+  }
+}
