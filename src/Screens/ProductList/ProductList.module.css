@@ -1,0 +1,143 @@
+@import '../../Css/CommonStyles.css';
+
+.parentView{
+  position: relative;
+}
+.mainView{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.title{
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 18px;
+  color: var(--black);
+}
+
+.addButton{
+  align-self: flex-end;
+  padding: 8px;
+  background-color: var(--secondary-color);
+  border-width: 0;
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 16px;
+  color: var(--white);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.addProductView{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  background-color: var(--black-translucent);
+}
+.addButtonSmall{
+  margin: 10px;
+  padding: 5px 20px;
+  background-color: var(--secondary-color);
+  border-width: 0;
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 14px;
+  color: var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addProductCurveView{
+  padding: 30px;
+  background-color: var(--white);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fileNameMainView{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.fileResultStyle{
+  font-family: Poppins-Regular, sans-serif;
+  font-size: 12px;
+  color: var(--error-red);
+  margin-top: 4px;
+}
+
+.listView{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  align-items: center;
+  gap: 1rem; /* Optional: space between children */
+}
+
+.rowView{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.fileNameContainer {
+  width: 200px;         /* Fixed width or max-width */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  font-size: 18px;
+  font-family: Poppins-Medium,sans-serif;
+}
+
+.accessCode{
+  font-size: 18px;
+  font-family: Poppins-Regular,sans-serif;
+}
+
+.imageBg{
+  width: 50px;
+  height: 50px;
+  background-color: var(--light-grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  border-radius: 4px;
+  font-size: 1.5rem;
+}
+
+.shareButtonSmall{
+  margin: 10px;
+  padding: 5px 20px;
+  background-color: var(--success-green);
+  border-width: 0;
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 14px;
+  color: var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.emailInput{
+  font-size: 14px;
+  height: 25px;
+  width: 300px;
+}
+
+.shareEmailPopup{
+  font-family: Poppins-Medium, sans-serif;
+  font-size: 18px;
+  color: var(--black);
+  margin-bottom: 10px;
+}

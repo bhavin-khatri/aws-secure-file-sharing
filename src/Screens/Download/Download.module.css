@@ -1,0 +1,47 @@
+@import '../../Css/CommonStyles.css';
+
+.mainView{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    background-color: var(--black-translucent);
+}
+
+.downloadCurveView{
+    padding: 30px;
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.downloadButton{
+    margin: 10px;
+    padding: 5px 20px;
+    background-color: var(--success-green);
+    border-width: 0;
+    font-family: Poppins-Medium, sans-serif;
+    font-size: 14px;
+    color: var(--white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.codeInput{
+    font-size: 14px;
+    height: 25px;
+}
+
+.fileResultStyle{
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 12px;
+    color: var(--error-red);
+    margin-top: 4px;
+}

@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from '../Screens/Header/Header'
 import Dashboard from '../Screens/Dashboard/Dashboard'
+import Login from '../Screens/Login/Login'
 
 const Navigation = () => {
   return (
     <div className="background">
-      {/*<Header />*/}
-      <Dashboard />
+      <Login />
     </div>
   )
 }

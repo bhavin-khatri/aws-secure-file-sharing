@@ -1,137 +1,117 @@
 @import '../../Css/CommonStyles.css';
-.dashboardMainView {
+.navbar {
   display: flex;
-  overflow-y: auto;
-  width: 100%;
-}
-
-.dashboardProfileView {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #3c3c3c;
-  border-radius: 10px;
-  margin: 30px;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  width: 20vw;
-  height: 90vh;
-}
-.dashboardProfileImage {
-  height: 250px;
-  width: 250px;
-  border-radius: 150px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.dashboardNameText {
-  font-size: 20px;
-  font-weight: normal;
-  color: white;
-}
-.dashboardDesignationText {
-  font-size: 18px;
-  color: white;
-  /*font-weight: bold;*/
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.dashboardContactInfoText {
-  font-size: 18px;
-  color: white;
-  margin-bottom: 10px;
-}
-
-.dashboardSocialItemMainView {
-  margin: 10px;
-  height: 50px;
-  border-radius: 30px;
-  width: 50px;
-  border: 1px solid #3c3c3c;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-}
-.dashboardSocialItemImage {
-  height: 30px;
-  width: 30px;
-}
-
-.dashboardRowViewSocial {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-
-.dashboardContactMeButton {
-  height: 50px;
-  background-color: #e0d48e;
-  width: 100%;
-  border-radius: 10px;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.dashboardContactMeText {
-  font-size: 18px;
-  color: var(--bg-color);
-  font-weight: bold;
-}
-.topView {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  padding: 30px;
-}
-.bottomView {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-self: center;
+  /*position: fixed;*/
   width: 100%;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-.bottomItemView {
-  flex: 1;
-  padding: 10px 5px 10px 5px;
-  border-top: 1px solid #3c3c3c;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  /*background-color: #5bb9c0;*/
+  z-index: 999;
+  overflow-y: auto;
+  background-color: white;
+  box-shadow: 0 2px 4px var(--black-shadow);
+  padding:20px
 }
 
-.bottomText {
-  font-size: 14px;
-  color: white;
+.body {
+  padding-top: 40px;
+  height: calc(
+          100vh - 70px
+  ); /* Adjust as needed based on the height of your navbar */
 }
-.rowDivider {
-  /*flex: 1;*/
-  width: 1px;
-  height: 40px;
-  background-color: #3c3c3c;
+
+.categoryRowView {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 50px;
 }
-.bottomSmallImage {
+.nameView {
+  /*margin-left: 50px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nameText {
+  font-size: 18px;
+  color: black;
+}
+#devName {
+  font-family: Poppins-Medium, serif;
+  color: var(--secondary-color);
+  margin: 0 8px 0 8px;
+}
+.categoryItemView {
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*height: 50px;*/
+  /*padding-left: 10px;*/
+  /*padding-right: 10px;*/
+  /*margin-top: 10px;*/
+  /*cursor: pointer;*/
+  /*-webkit-tap-highlight-color: transparent;*/
+}
+
+.categoryTitle {
+  font-family: Poppins-Medium, serif;
+  font-size: 16px;
+  line-height: 20px;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.categoryTitleBg {
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.categoryTitleBg:focus,
+.categoryTitleBg:hover {
+  color: var(--light-primary);
+}
+
+.categoryTitleBg:focus:after,
+.categoryTitleBg:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.categoryTitleBg:after {
+  content: '';
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--light-primary);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+
+#activeTitle {
+  color: var(--secondary-color);
+}
+#inActiveTitle {
+  color: darkgrey;
+}
+.categoryImage {
   height: 20px;
   width: 20px;
-  color: white;
-  margin-left: 10px;
+  margin-right: 5px;
 }
 
-.hireMeImage {
-  height: 25px;
-  width: 25px;
-  margin-right: 10px;
+#headerTitle{
+  color: var(--secondary-color);
+  font-family: Poppins-Medium, sans-serif;
 }

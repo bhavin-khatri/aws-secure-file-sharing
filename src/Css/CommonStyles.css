@@ -1,7 +1,9 @@
 :root {
   --primary-color: #9c488e;
+  --error-red: #d24747;
+  --success-green: #71d247;
   --secondary-color: #9a9aff;
-  --light-primary: #9c488e;
+  --light-primary: rgba(156, 72, 142, 0.84);
   --bright-primary: #f37f67;
   /*--bg-color: var(--bg-color);*/
   --bg-color: #ffff;
@@ -11,4 +13,5 @@
   --black-translucent: rgba(0, 0, 0, 0.85);
   --black-dark-shadow: rgba(0, 0, 0, 0.8);
   --grey: #afafaf;
+  --light-grey: #eee;
 }

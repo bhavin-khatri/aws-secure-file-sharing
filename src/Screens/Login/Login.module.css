@@ -1,0 +1,59 @@
+@import '../../Css/CommonStyles.css';
+
+.mainView {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: var(--white);
+}
+
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-grey);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.loginButton {
+    padding: 10px;
+    background-color: var(--light-primary);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.loginButton:hover {
+    background-color: var(--primary-color);
+}
+
+.error {
+    color: var(--error-red);
+    margin-bottom: 10px;
+    font-size: 12px;
+}
