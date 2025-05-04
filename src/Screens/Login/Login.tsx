@@ -1,15 +1,23 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react'
 import styles from './Login.module.css';
-import { signIn } from '@aws-amplify/auth'
+import { signIn, signOut , getCurrentUser } from '@aws-amplify/auth'
 import { useNavigate } from 'react-router-dom';
-import { isValidEmail } from '../../Utils/Utils'
+import { extractAfterColon, isValidEmail, logoutPreviousUsers } from '../../Utils/Utils'
+import Images from '../../res/styles/Images'
 
 const Login: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [errorEmail, setErrorEmail] = useState('');
   const [errorPassword, setErrorPassword] = useState('');
+  const [showPassword,setShowPassword] = useState(false)
   const navigate = useNavigate();
+
+  useEffect(()=>{
+    logoutPreviousUsers()
+  },[])
+
+
 
   const handleLogin = () => {
     // Reset previous errors
@@ -43,8 +51,13 @@ const Login: React.FC = () => {
       }
     }).catch((err) => {
       console.log('error== > ', err)
-      setErrorPassword(err.toString())
+      const cleanError = extractAfterColon(err.toString())
+      setErrorPassword(cleanError)
     });
+  }
+
+  const togglePassword = ()=>{
+    setShowPassword(!showPassword)
   }
 
 
@@ -52,22 +65,31 @@ const Login: React.FC = () => {
   return (
     <div className={styles.mainView}>
       <div className={styles.loginBox}>
-        <h2 className={styles.title}>Login</h2>
-        <input
-          type="email"
-          placeholder="Enter email"
-          className={styles.input}
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
+        <div className={styles.title}>Login</div>
+        <div className={styles.inputContainer}>
+          <input
+            type="email"
+            placeholder="Enter email"
+            className={styles.input}
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
         {errorEmail && <div className={styles.error}>{errorEmail}</div>}
-        <input
-          type="password"
-          placeholder="Enter password"
-          className={styles.input}
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
+        <div className={styles.inputContainer}>
+          <input
+            type={showPassword ? "text" : "password"}
+            placeholder="Enter password"
+            className={styles.input}
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          {password ?
+            <img src={showPassword ? Images.ic_eye_hide : Images.ic_eye} className={styles.eyeIcon} onClick={togglePassword}/>
+            :null
+          }
+
+        </div>
         {errorPassword && <div className={styles.error}>{errorPassword}</div>}
         <button className={styles.loginButton} onClick={handleLogin}>
           Login

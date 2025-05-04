@@ -5,10 +5,6 @@ import { fetchAuthSession, getCurrentUser } from '@aws-amplify/auth'
 import { fetchImageMetadata, generateCode, isValidEmail } from '../../Utils/Utils'
 import emailjs from '@emailjs/browser'
 import { remove } from '@aws-amplify/storage';
-
-const tempJSON = [
-  {image:'', fileName: 'Image' , code :"1234", type:"png"},
-]
 const serviceId:any= process.env.REACT_APP_EMAIL_SERVICE_ID
 const templateId:any= process.env.REACT_APP_EMAIL_TEMPLATE_ID
 const publicKey:any= process.env.REACT_APP_EMAIL_PUBLIC_KEY
@@ -22,6 +18,7 @@ const ProductList: React.FC = () => {
   });
   const [email,setEmail] = useState<string>('')
   const [showEmailPopUp,setShowEmailPopup] = useState<boolean>(false)
+  const [showDeletePopUp,setShowDeletePopup] = useState<boolean>(false)
   const [fileResult, setFileResult] = useState<any>({
     message:"",
     status:false
@@ -72,7 +69,6 @@ const ProductList: React.FC = () => {
   useEffect(() => {
     emailjs.init(publicKey);
     fetchFiles();
-    setProductList(tempJSON)
   }, []);
 
   const handleShare = (file: any) => {
@@ -90,14 +86,16 @@ const ProductList: React.FC = () => {
           message:'Email Sent',
           status:true
         })
-        setShowEmailPopup(false)
+        setTimeout(()=>{
+          setShowEmailPopup(false)
+        },1000)
+        setSelectedProduct(null)
       }).catch((error)=>{
         setFileResult({
-          message:'',
+          message:'Failed to send email',
           status:false
         })
       })
-
     }else{
       setFileResult({
         message:'Invalid Email',
@@ -162,6 +160,7 @@ const ProductList: React.FC = () => {
       });
       console.log('File deleted successfully');
       fetchFiles(); // refresh the file list after deletion
+      setShowDeletePopup(false)
     } catch (error) {
       console.error('Error deleting file:', error);
       alert('Failed to delete the file.');
@@ -170,6 +169,24 @@ const ProductList: React.FC = () => {
 
   return (
     <div className={styles.parentView}>
+
+      {showDeletePopUp ?
+
+        <div className={styles.addProductView}>
+          <div className={styles.addProductCurveView}>
+            <text className={styles.shareEmailPopup}>Are you sure you want to delete this file?</text>
+            <div style={{
+              width:'100%',
+            }} className={styles.rowView}>
+              <button className={styles.logoutButton} onClick={()=>setShowDeletePopup(false)}>No</button>
+              <button id={styles.activeLogout} className={styles.logoutButton} onClick={()=>handleDelete(selectedShareProduct.fileName)}>Yes</button>
+            </div>
+          </div>
+
+        </div>
+        :null
+      }
+
       {showAddProductPopUp ?
         <div className={styles.addProductView} >
           <div style={{
@@ -199,7 +216,7 @@ const ProductList: React.FC = () => {
       {showEmailPopUp ?
         <div className={styles.addProductView}>
           <div className={styles.addProductCurveView}>
-            <text className={styles.shareEmailPopup}>Send Image via Email</text>
+            <text className={styles.shareEmailPopup}>Send File via Email</text>
             <div className={styles.fileNameMainView}>
               <input
                 type="email"
@@ -229,11 +246,10 @@ const ProductList: React.FC = () => {
         </div>
         :null
       }
-
         <div className={styles.mainView}>
           <div className={styles.rowView} style={{alignItems:'flex-end'}}>
             <div>
-              <text className={styles.title}>Product List</text>
+              <text className={styles.title}>File List</text>
               <text style={{cursor:'pointer'}} className={styles.title} onClick={()=>fetchFiles()}> 🔄</text>
             </div>
 
@@ -241,13 +257,13 @@ const ProductList: React.FC = () => {
               setFileResult({ message:'' ,status:false});
               setShowAddProductPopup(true)
             }}>
-              Add Product
+              Add File
             </button>
           </div>
           {loading ? (
-            <p>Fetching list...</p>
-          ) : (
-        <ul style={{ listStyle: 'none', padding: 0 }} >
+            <div className={styles.noFileFoundView}>Fetching files...</div>
+          ) : productList.length > 0 ? (
+              <ul style={{ listStyle: 'none', padding: 0 }} >
           {productList.map((fileItem) => (
             <li key={fileItem.key} className={styles.listView}>
               <div className={styles.rowView}>
@@ -276,12 +292,22 @@ const ProductList: React.FC = () => {
               }}>Share</button>
               <button style={{
                 backgroundColor:'#d24747'
-              }} className={styles.shareButtonSmall} onClick={() => handleDelete(fileItem.fileName)}>Delete</button>
+              }} className={styles.shareButtonSmall} onClick={() => {
+                setShowDeletePopup(true)
+                setSelectedShareProduct(fileItem)
+                setFileResult({
+                  message: '',
+                  status: false,
+                })
+              }
+              }>Delete</button>
               </div>
             </li>
           ))}
         </ul>
-            )}
+            ) : (
+            <div className={styles.noFileFoundView}>No Files Found</div>
+          )}
         </div>
 
     </div>

@@ -27,14 +27,35 @@
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
+    font-family: Poppins-SemiBold,sans-serif;
 }
 
 .input {
-    padding: 10px;
-    margin-bottom: 10px;
+    height: 40px;
+    width: 90%;
+    margin-left: 5px;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.input:focus{
+    outline: none;
+    border-color: transparent;
+    box-shadow: none; /* Also remove blue shadow in some browsers */
+}
+
+.inputContainer{
+    width: 100%;
+    height: 40px;
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 18px;
+    margin-bottom: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
 
 .loginButton {
@@ -56,4 +77,12 @@
     color: var(--error-red);
     margin-bottom: 10px;
     font-size: 12px;
+}
+
+.eyeIcon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    /*position: absolute;*/
 }

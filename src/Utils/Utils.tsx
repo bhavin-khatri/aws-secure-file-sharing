@@ -1,4 +1,5 @@
 import { getProperties, getUrl } from '@aws-amplify/storage'
+import { getCurrentUser, signOut } from '@aws-amplify/auth'
 
 export   const isValidEmail = (email: string): boolean => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -36,3 +37,23 @@ export const fetchImageMetadata = async (fileKey: string) => {
     return { code: '', lastModified: new Date(0),imageUrl:'' }; // fallback to epoch
   }
 };
+
+export  const logoutPreviousUsers = async ()=>{
+  try {
+    // Check if someone is already logged in
+    const currentUser = await getCurrentUser();
+    console.log("cyrrent ==== > ",currentUser)
+    if (currentUser) {
+      console.log('🔄 Existing user detected. Logging out...');
+      await signOut(); // Sign out existing session
+    }
+  } catch (err) {
+    // No user was signed in, so we can safely ignore this error
+    console.log('✅ No existing user session found.');
+  }
+}
+
+export function extractAfterColon(message: string): string {
+  const parts = message.split(':');
+  return parts.length > 1 ? parts[1].trim() : message;
+}
